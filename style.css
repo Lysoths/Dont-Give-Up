@@ -1,0 +1,50 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;  
+    background-color:black;  
+}
+
+
+.container {
+    display:flex;
+    width: 2;
+    height: 2rem;
+    font-size:2rem;    
+    justify-content: center;
+    align-items: center;    
+    color:black;
+    background-color:orange;
+    margin:5px;
+    padding:5px;
+    border-radius:10px;
+   
+}
+
+ .container div 
+ {
+     background-color:orange;
+     width: 50%;
+     height: 50%;
+     border:5px solid black;
+     position:absolute;
+     transition:all 2s;
+     border-radius:30%;
+     justify-content: center;
+     text-align:center;
+     align-items:center;
+     display:flex;
+     font-size:3rem;
+     color:white;
+    
+ }
+
+body:hover .container div 
+{
+
+border-radius:50%;
+transform:scale(0.0001)
+}
+
+
